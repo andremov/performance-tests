@@ -2,7 +2,7 @@ const { performance } = require('perf_hooks');
 const { waterTrap } = require('./problem-01.js');
 
 describe('problem-01', () => {
-  const performanceData = [];
+  const performanceData = {};
 
   afterAll(() => {
     console.log(performanceData);
@@ -16,7 +16,7 @@ describe('problem-01', () => {
     const answer = waterTrap(height);
     const endTime = performance.now();
 
-    performanceData.push(endTime - startTime);
+    performanceData['case-01'] = endTime - startTime;
 
     expect(answer).toBe(correctAnswer);
   });
@@ -29,7 +29,7 @@ describe('problem-01', () => {
     const answer = waterTrap(height);
     const endTime = performance.now();
 
-    performanceData.push(endTime - startTime);
+    performanceData['case-02'] = endTime - startTime;
 
     expect(answer).toBe(correctAnswer);
   });
@@ -47,7 +47,7 @@ describe('problem-01', () => {
     const answer = waterTrap(height);
     const endTime = performance.now();
 
-    performanceData.push(endTime - startTime);
+    performanceData['case-03'] = endTime - startTime;
 
     expect(answer).toBe(correctAnswer);
   });
