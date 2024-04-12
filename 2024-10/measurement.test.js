@@ -16,7 +16,7 @@ describe('problem-01', () => {
     const answer = waterTrap(height);
     const endTime = performance.now();
 
-    performanceData['case-01'] = `${(endTime - startTime) * 1000}ms`;
+    performanceData['case-01'] = `${(endTime - startTime) * 1000} μs`;
 
     expect(answer).toBe(correctAnswer);
   });
@@ -29,7 +29,7 @@ describe('problem-01', () => {
     const answer = waterTrap(height);
     const endTime = performance.now();
 
-    performanceData['case-02'] = `${(endTime - startTime) * 1000}ms`;
+    performanceData['case-02'] = `${(endTime - startTime) * 1000} μs`;
 
     expect(answer).toBe(correctAnswer);
   });
@@ -47,7 +47,7 @@ describe('problem-01', () => {
     const answer = waterTrap(height);
     const endTime = performance.now();
 
-    performanceData['case-03'] = `${(endTime - startTime) * 1000}ms`;
+    performanceData['case-03'] = `${(endTime - startTime) * 1000} μs`;
 
     expect(answer).toBe(correctAnswer);
   });
