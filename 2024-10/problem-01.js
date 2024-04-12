@@ -1,5 +1,5 @@
 function waterTrap(height) {
-  return 0;
+  return 1;
 };
 
 module.exports = { waterTrap };
