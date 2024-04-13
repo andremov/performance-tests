@@ -21,6 +21,4 @@ function expandAroundCenter(s, left, right) {
     return right - left - 1;
 }
 
-console.log(longestPalindrome("baabaaab")); 
-
 module.exports = { longestPalindrome };
