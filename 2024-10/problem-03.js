@@ -13,3 +13,4 @@ function maxArea(height) {
   }
   return max;
 }
+module.exports = {maxArea};
