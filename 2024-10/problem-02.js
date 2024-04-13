@@ -35,6 +35,7 @@ function longestPalindrome(s) {
     return s.substr(start, maxLength);
 }
 
+module.exports = {longestPalindrome}
 // Example usage:
-const s = "babad";
-console.log(longestPalindrome(s));  // Output: "bab" or "aba"
+//const s = "babad";
+//console.log(longestPalindrome(s));  // Output: "bab" or "aba"
