@@ -15,3 +15,4 @@ function maxArea(height) {
   
   return aguamax;
 }
+ module.exports={maxArea}
