@@ -1,4 +1,5 @@
 function waterTrap(height) {
+
   return 1;
 };
 
